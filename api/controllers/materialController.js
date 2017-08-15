@@ -9,7 +9,7 @@ exports.list_all_testes = function(req, res) {
     res.json(teste);
   });
 };
-exports.add_teste = function(req, res) {
+/*exports.add_teste = function(req, res) {
   var novoTeste = new connection.Teste(nome: req.body.nome ,
   ano: req.body.ano);
   novoTeste.save(function(err, teste) {
@@ -17,4 +17,4 @@ exports.add_teste = function(req, res) {
       res.send(err);
     res.json(teste);
   });
-};
+};*/
