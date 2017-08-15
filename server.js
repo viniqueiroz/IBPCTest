@@ -10,6 +10,6 @@ app.use(bodyParser.json());
 var routes = require('./api/routes/materialRoutes');
 routes(app);
 
-app.listen(port);
-
-console.log('todo list RESTful API server started on: ' + port);
+app.listen(port, function() {
+    console.log("App is running on port " + port);
+});
