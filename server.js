@@ -46,4 +46,4 @@ function doPosts() {
     );
     setTimeout(doPosts, interval);
 }
-doPosts();
+//doPosts();
